@@ -22,17 +22,17 @@ and open the template in the editor.
 
 .header { 
     grid-area: header; 
-    border: 1px black solid;
+    border: 0.5 px black solid;
 }
 
 .section { 
     grid-area: section; 
-    border: 1px black solid;
+    border: 0.5 px black solid;
 }
 
 .landing_navbar { 
     grid-area: landing_navbar; 
-    border: 1px black solid;
+    border: 0.5 px black solid;
     display: grid; 
     grid-template-columns: 1fr; 
     grid-template-rows: 1fr 1fr; 
@@ -45,16 +45,17 @@ and open the template in the editor.
 
 .nav_01 {
     grid-area: nav_01;
-    border: 1px black solid;
+    border: 0.5 px black solid;
+	
 }
 
 .nav_02 {
     grid-area: nav_02;
-    border: 1px black solid;
+    border: 0.5 px black solid;
 }
 
 .footer { 
     grid-area: footer; 
-    border: 1px black solid;
+    border: 0.5 px black solid;
 }
 

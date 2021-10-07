@@ -5,38 +5,48 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 <html>
-    <head>
+<head>
         <title>MI PÁGINA</title>
         <meta charset="UTF-8">
         <meta name="title" content="El ttulo a ranquear en el motor">
         <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam">
         <link rel="stylesheet" href="estilos.css">
-    </head>
+    <style type="text/css">
+        .header {
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+        .header1 {
+	font-family: Verdana, Geneva, sans-serif;
+}
+        .container {
+	color: #000;
+}
+    </style>
+</head>
     <body>
-        <div class="container">
+    <div class="container">
             <header class="header">
-                Titulo
+<marquee><img src="images/logo.JPG" width="312" height="81" alt="EDE"></marquee>
             </header>
-            <nav id="landing_navbar" class="landing_navbar" >
-                <div class="nav_01">
-                    <img id="navbar_logo" src="http://systemtech.com.co/images/logo-desarrollo.png" />
-                </div>
+      <nav id="landing_navbar" class="landing_navbar" >
+                <div class="nav_01"><img src="images/logo1.JPG" width="100" height="81" alt="EDE"></div>
                 <div class="nav_02" style="position: relative;">
-                    <a id="link_registro" style="position: absolute; top: 60%; left: 30%;" href="registro.html" target="_self">
+                    <a href="registro.html" name="link_registro" target="_self" id="link_registro" style="position: absolute; top: 60%; left: 30%;">
                         <button id="btn_irRegistro">
                             REGISTRO
                         </button>
                     </a>
                 </div>
             </nav>
-            <section class="section">
+      <section class="section">
                 <article>
                     <p>CONTENIDO</p>
                 </article>                
             </section>
-            <footer class="footer">
-                <label>Pie de página</label>
-            </footer>
+          <footer class="footer">
+            <h4>Redes Sociales</h4>
+            <p><img src="https://cdn2.iconfinder.com/data/icons/social-18/512/Instagram-1024.png" alt="instagram" width="40" height="40"> <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-facebook_-1024.png" alt="facebook" width="40" height="40"></p>
+          </footer>
         </div>
     </body>
 </html>

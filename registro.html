@@ -4,24 +4,76 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
-<html>
-    <head>
+<html><head>
         <title>Registro</title>
         <meta charset="UTF-8">
         <meta name="title" content="El ttulo a ranquear en el motor">
-        <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam">
-    </head>
+       
+<style type="text/css">
+    #apDiv1 {
+	position: absolute;
+	left: 92px;
+	top: 13px;
+	width: 214px;
+	height: 29px;
+	z-index: 1;
+	visibility: visible;
+}
+    #form_registro_usuario p {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #F33;
+}
+    #form_registro_usuario p {
+	color: #06F;
+}
+    #apDiv2 {
+	position: absolute;
+	width: 705px;
+	height: 224px;
+	z-index: 1;
+	top: 10px;
+	overflow: visible;
+	visibility: hidden;
+	color: #000;
+	border: 1px black solid;
+}
+    #form_registro_usuario p {
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;
+	background-color: #FFF;
+}
+    #apDiv3 {
+	position: absolute;
+	width: 856px;
+	height: 42px;
+	z-index: 1;
+	left: 9px;
+	top: 150px;
+	background-color: #0000FF;
+	color: #000;
+	visibility: visible;
+}
+    </style>
+</head>
     <body>
-        <div>
-            <form id="form_registro_usuario">
-                <label for="in_usuario" >Usuario</label>
-                <input id="in_usuario" type="text"/>
-                <br/>
-                <label for="in_contrasena" >Contraseña</label>
-                <input id="in_contrasena" type="password"/>
-                <br/>
-                <button id="btn_enviar_registro">Enviar</button>
-            </form>
-        </div>
-    </body>
+    <div>
+        <form id="form_registro_usuario">
+          <p><a href="index.html"><img src="images/logo.JPG" width="312" height="81" alt="EDE"></a></p>
+          <p>&nbsp;</p>
+            <p>Registro</p>
+                <p>&nbsp;</p>
+          <p>
+            <label for="in_usuario" >Usuario:</label>
+            <label for="in_usuario"></label>
+            <input type="text" name="in_usuario" id="in_usuario">
+                  <label for="in_contrasena" >Contraseña:</label>
+                  <input id="in_contrasena" type="password"/>
+          </p>
+                <p><br/>
+                </p>
+<button id="btn_enviar_registro">Enviar</button>
+      </form>
+    </div>
+</body>
 </html>
